@@ -1,7 +1,8 @@
 body {
   line-height: 1.5;
   text-align: center;
-/*   background: ; */
+  background: #EEF5DD;
+  font-family: 'Open Sans', sans-serif
 }
 
 #contact {
@@ -13,9 +14,40 @@ body {
 }
 
 #projectImg {
-  height: 20vw;
+    height: 20vw;
   width: 30vw;
+  margin-top: 20px;
+  margin-left: 20px;
+  border: 3px solid #564154;
+  transition: .5s;
 }
+
+/* img hover effect */
+#projectImg::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #FF6542;
+  transition: .5s;
+  transform: scale(.9);
+  z-index: -1;
+}
+
+#projectImg:hover::before {
+  transform: scale(1.1);
+  box-shadow: 0 0 25px #FF6542;
+}
+
+#projectImg:hover {
+  color: #FF6542;
+  box-shadow: 0 0 30px #FF6542;
+  text-shadow: 0 0 30px #FF6542;
+}
+/* hover end */
 
 #graduation {
   width: 5vw;
@@ -29,7 +61,7 @@ body {
   width: 4vw;
 }
 
-#jesse {
+#image{
   width: 20vw;
 }
 
@@ -42,4 +74,25 @@ body {
   margin-top: 10px;
   margin-bottom: 15px;
   font-size: 25px;
+}
+
+/* project section */
+.projTitles {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.projText {
+  margin-left: 20px;
+}
+/* end */
+
+.titles {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: 'Fredoka One', cursive;
+}
+
+.text {
+  margin: 10px;
 }
