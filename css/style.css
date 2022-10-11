@@ -1,3 +1,45 @@
-#projects {
+body {
+  line-height: 1.5;
   text-align: center;
+/*   background: ; */
+}
+
+#contact {
+  background-color: #111;
+  color: white;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+#projectImg {
+  height: 20vw;
+  width: 30vw;
+}
+
+#graduation {
+  width: 5vw;
+}
+
+#github {
+  width: 4vw;
+}
+
+#email {
+  width: 4vw;
+}
+
+#jesse {
+  width: 20vw;
+}
+
+#logo {
+  width: 50px;
+  height: 30px
+}
+
+.navbar-brand {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-size: 25px;
 }
