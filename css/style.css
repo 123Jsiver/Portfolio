@@ -7,7 +7,7 @@ body {
 
 #contact {
   background-color: #111;
-  color: white;
+  color: #EEF5DD;
   padding-bottom: 20px;
   padding-top: 20px;
   text-align: center;
@@ -95,4 +95,34 @@ body {
 
 .text {
   margin: 10px;
+}
+
+header {
+  background: #080708;
+  background-size: cover;
+  min-height: 60vh;
+  position: relative;
+}
+
+.name {
+  z-index: 5;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 10vw;
+  color: #EEF5DD;
+  font-family: 'Fredoka One', cursive;
+}
+
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
 }
