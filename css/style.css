@@ -1,7 +1,7 @@
 body {
   line-height: 1.5;
   text-align: center;
-  background: #EEF5DD;
+  background: white;
   font-family: 'Open Sans', sans-serif
 }
 
@@ -18,11 +18,23 @@ body {
   width: 30vw;
   margin-top: 20px;
   margin-left: 20px;
-  border: 3px solid #00916E;
-  transition: .5s;
+  box-shadow: 15px 15px 20px black;
+  /* border: 3px solid #00916E;
+  transition: .5s; */
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
-/* img hover effect */
+  #projectImg:hover {
+  -webkit-transform: scale(.75);
+  -moz-transform: scale(.75);
+  -o-transform: scale(.75);
+  -ms-transform: scale(.75);
+  transform: scale(.75);
+  }
+
+/* img hover effect
 #projectImg::before {
   content: '';
   position: absolute;
@@ -46,7 +58,7 @@ body {
   color: #35A7FF;
   box-shadow: 0 0 50px #35A7FF;
   text-shadow: 0 0 50px #35A7FF;
-}
+} */
 /* hover end */
 
 #graduation {
@@ -111,7 +123,7 @@ header {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 10vw;
-  color: #EEF5DD;
+  color: white;
   font-family: 'Fredoka One', cursive;
 }
 
@@ -125,4 +137,9 @@ header {
 .reveal.active{
   transform: translateY(0);
   opacity: 1;
+}
+
+.nav-link {
+  color: white;
+  font-size: 20px;
 }
