@@ -7,7 +7,7 @@ body {
 
 #contact {
   background-color: #080708;
-  color: #EEF5DD;
+  color: white;
   padding-bottom: 20px;
   padding-top: 20px;
   text-align: center;
@@ -33,33 +33,6 @@ body {
   -ms-transform: scale(.75);
   transform: scale(.75);
   }
-
-/* img hover effect
-#projectImg::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  background: #35A7FF;
-  transition: .5s;
-  transform: scale(.9);
-  z-index: -1;
-}
-
-#projectImg:hover::before {
-  transform: scale(1.1);
-  box-shadow: 0 0 40px #35A7FF;
-}
-
-#projectImg:hover {
-  color: #35A7FF;
-  box-shadow: 0 0 50px #35A7FF;
-  text-shadow: 0 0 50px #35A7FF;
-} */
-/* hover end */
 
 #graduation {
   width: 5vw;
@@ -142,4 +115,9 @@ header {
 .nav-link {
   color: white;
   font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
